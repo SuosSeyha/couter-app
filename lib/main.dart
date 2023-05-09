@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:local_storage_11_12/SharePreference/counter_app.dart';
+import 'package:local_storage_11_12/SharePreference/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
       
         primarySwatch: Colors.blue,
       ),
-      home: const CounterApp()
+      debugShowCheckedModeBanner: false,
+      home: const LoginPage()
     );
   }
 }
